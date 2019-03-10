@@ -10,7 +10,8 @@
   "dependencies": {
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
-    "vue": "^2.6.6"
+    "vue": "^2.6.6",
+    "vue-router": "^3.0.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.0",

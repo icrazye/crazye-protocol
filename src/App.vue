@@ -1,15 +1,17 @@
 <template>
   <div id="app">
-    <user-protocol></user-protocol>
+    <!--<router-link to="/UserProtocol">UserProtocol</router-link>-->
+    <!--<router-link to="./components/authorize">authorize</router-link>-->
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import UserProtocol from './components/UserProtocol'
+
 export default {
   name: 'app',
   components: {
-    UserProtocol
+
   }
 }
 </script>
